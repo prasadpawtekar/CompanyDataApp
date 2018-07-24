@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.netwintest.companyapp.EmployeeListActivity">
+    <TextView
+        android:padding="@dimen/common_padding"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:text="@string/activity_all_employees"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <View
+        android:background="@color/separator_color"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/separator_size" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvEmployees"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Company App</string>
+    <string name="btnAllEmployees">Show Employees</string>
+    <string name="btnSave">Save</string>
+    <string name="hint_employee_name">Employee name</string>
+    <string name="hint_designation">Designation</string>
+    <string name="hintAge">Age</string>
+    <string name="label_select_doj">Select Date of Joining</string>
+    <string name="activity_add_employee">Add Employee</string>
+    <string name="label_doj">Date of Joining</string>
+    <string name="error_enter_name">Please enter name</string>
+    <string name="error_enter_designation">Please enter designation</string>
+    <string name="error_enter_age">Please enter age</string>
+    <string name="error_age_violation">Age must be between 18 to 60</string>
+    <string name="error_invalid_age">Please enter number</string>
+    <string name="error_select_doj">Please select date of joining</string>
+    <string name="msg_employee_added_successfully">Employee data saved successfully</string>
+    <string name="msg_failed_to_save_employee_data">Failed to save employee data. Please retry.</string>
+    <string name="label_age">Age : %1$d</string>
+    <string name="label_emp_doj">Joining date : %1$s</string>
+    <string name="msg_employee_data_is_empty">Employee data is empty</string>
+    <string name="activity_all_employees">Employees</string>
+    <string name="read_company_data">com.netwintest.companyapp.companydata.read</string>
+    <string name="write_company_data">com.netwintest.companyapp.companydata.write</string>
+    <string name="sorry_message">Some thing went wrong. Please retry.</string>
+</resources>
